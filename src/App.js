@@ -24,14 +24,13 @@ function App() {
       </header> */}
 
       <BrowserRouter>
-      
+
       <Header />
       <Routes>
-        <Route path="/" element={<Demo />}>
-          <Route path="profile" element={<Profile />} />
+        {/* <Route path="/" element={<Demo />}> */}
+          <Route path="/" element={<Profile />} />
           {/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
-        </Route>
       </Routes>
     </BrowserRouter>
     </div>
