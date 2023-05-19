@@ -6,7 +6,7 @@ With the addition of Hooks, Function components are now almost equivalent to Cla
 
 Even though Function components are preferred, there are no current plans on removing Class components from React.
 
-## To define a React component class, you need to extend React.Component
+To define a React component class, you need to extend React.Component
 
 class Welcome extends React.Component {
   render() {
