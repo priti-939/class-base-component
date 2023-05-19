@@ -10,6 +10,6 @@ To define a React component class, you need to extend React.Component
 
 class Welcome extends React.Component {
   render() {
-    return <h1>Hello, {this.props.name}</h1>;
+    return <div>Hello, {this.props.name}</div>;
   }
 }
