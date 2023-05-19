@@ -6,6 +6,7 @@ class Header extends Component{
         return(
             <ul>
                 <li><Link to='/'>Counter</Link></li>
+                <li><Link to='/parent-to-child'>Parent to Child communication</Link></li>
             </ul>
         )
     }

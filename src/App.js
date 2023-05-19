@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Demo from './counter';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Profile from './Profile';
+import Profile from './ParnentComponent';
 import Header from './Header';
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
 
       <Header />
       <Routes>
-        {/* <Route path="/" element={<Demo />}> */}
-          <Route path="/" element={<Profile />} />
+        <Route path="/" element={<Demo />} />
+          <Route path="/parent-to-child" element={<Profile />} />
           {/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
       </Routes>
